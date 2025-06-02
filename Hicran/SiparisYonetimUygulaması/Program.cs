@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-// BURADAKİ 'SiparisYonetimUygulamasi' KISMI, SİZİN PROJENİZİN ADI VE AYNI ZAMANDA
-// MainForm.cs gibi diğer form dosyalarındaki 'namespace' adı ile BİREBİR AYNI OLMALIDIR.
+
+
 using SiparisYonetimUygulamasi;
 
-namespace SiparisYonetimUygulamasi // Bu da yukarıdaki 'using' ile aynı namespace olmalı
+namespace SiparisYonetimUygulamasi 
 {
     static class Program
     {
