@@ -3,17 +3,14 @@ using System.Drawing;
 using System.Windows.Forms;
 using SiparisYonetimUygulamasi.DAL; // DbHelper sınıfı için
 
-namespace SiparisYonetimUygulamasi // Bu, projenizin ana ad alanı olmalı ve Program.cs ile aynı olmalı
+namespace SiparisYonetimUygulamasi 
 {
-    public partial class MainForm : Form // Burası ": Form" olduğundan emin olun
+    public partial class MainForm : Form 
     {
         public MainForm()
         {
-            InitializeComponent(); // Bu satır otomatik gelir ve korunmalıdır.
+            InitializeComponent();
 
-            // *******************************************************************
-            // FORM AYARLARI (KODLA)
-            // *******************************************************************
             this.Text = "Sipariş Yönetim Sistemi - Ana Menü"; // Formun başlık çubuğu metni
             this.StartPosition = FormStartPosition.CenterScreen; // Formu ekranın ortasında açar
             this.FormBorderStyle = FormBorderStyle.FixedSingle; // Kullanıcının formu yeniden boyutlandırmasını engeller
@@ -23,9 +20,6 @@ namespace SiparisYonetimUygulamasi // Bu, projenizin ana ad alanı olmalı ve Pr
             this.BackColor = Color.FromArgb(224, 255, 230);
             // Eğer pastel pembe istersen: this.BackColor = Color.FromArgb(255, 224, 230);
 
-            // *******************************************************************
-            // HOŞ GELDİNİZ YAZISI (LABEL) KODLA
-            // *******************************************************************
             Label welcomeLabel = new Label();
             welcomeLabel.Text = "Hoş Geldiniz!";
             welcomeLabel.Font = new Font("Segoe UI", 36, FontStyle.Bold); // Büyük ve kalın yazı tipi
