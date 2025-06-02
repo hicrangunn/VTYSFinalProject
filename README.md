@@ -6,15 +6,15 @@ Bu proje, restoran veya kafe gibi işletmeler için geliştirilen basit ve kulla
 
 ## 📌 Ana Özellikler
 
-- ✅ Yeni sipariş oluşturma
-- ✅ Ürün ekleme, güncelleme ve silme
-- ✅ Masa durumu takibi (Boş / Dolu)
-- ✅ Fatura görüntüleme ve detayları
-- ✅ Toplam tutar hesaplama
+- Yeni sipariş oluşturma
+- Ürün ekleme, güncelleme ve silme
+- Masa durumu takibi (Boş / Dolu)
+- Fatura görüntüleme ve detayları
+- Toplam tutar hesaplama
 
 ---
 
-## 🖼️ Ekran Görüntüleri
+## 🖼️ Projeye Ait Resimler
 
 ### 🔹 Ana Menü
 ![Ana Menü](./screenshots/menu.jpeg)
@@ -35,19 +35,7 @@ Bu proje, restoran veya kafe gibi işletmeler için geliştirilen basit ve kulla
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- Python
-- Tkinter (GUI Arayüzü)
-- SQLite (Veritabanı)
+- C#
+- Sql Server (Veritabanı)
 
----
 
-## 👨‍💻 Geliştirici
-
-> Bu proje bireysel geliştirme amaçlıdır. Daha gelişmiş versiyonlar için issue açabilir ya da katkıda bulunabilirsin.  
-📩 Her türlü öneri ve geri bildirime açığım.
-
----
-
-## ⚠️ Not
-
-> Ekran görüntülerini `/screenshots/` klasörüne koymayı unutma. Yoksa görseller görünmez.
